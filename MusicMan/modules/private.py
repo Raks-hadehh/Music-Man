@@ -40,7 +40,9 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>┗┓ Haii {message.from_user.first_name} saya adalah {PROJECT_NAME} ┏┛\n
-Gua itu Music bot,gua bisa apa aja kaga kaya lo contohnya :
+Saya adalah bot music yang dirancang khusus untuk menemani anda untuk memutar musik di voice chat group dan di channel anda.
+Masukkan saya dengan asisten saya kedalam grup anda lalu jadikan admin, nikmati musik sepuasnya!
+Saya juga mempunyai fitur yang lengkap seperti:
 ┏━━━━━━━━━━━━━━
 ┣• Memutar Musik.
 ┣• Mendownload Lagu.
@@ -63,12 +65,12 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ TAMBAHIN GUA KE GROUP ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/isikepalavalen"), 
+                        "🎯 **channel**", url=f"https://t.me/isikepalavalen"), 
                     InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/sinihadehh")
+                        "📍 **GROUP**", url=f"https://t.me/sinihadehh")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "🤖 **OWNER**", url=f"https://t.me/rakaaanjayy")
                 ]
             ]
         ),
