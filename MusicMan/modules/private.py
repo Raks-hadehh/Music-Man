@@ -62,15 +62,15 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
             [
                 [
                     InlineKeyboardButton(
-                        "➕ TAMBAHIN GUA KE GROUP ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "🎯 **channel**", url=f"https://t.me/isikepalavalen"), 
+                        "🎯 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/isikepalavalen"), 
                     InlineKeyboardButton(
-                        "📍 **GROUP**", url=f"https://t.me/sinihadehh")
+                        "📍 ɢʀᴏᴜᴘ", url=f"https://t.me/sinihadehh")
                 ],[
                     InlineKeyboardButton(
-                        "🤖 **OWNER**", url=f"https://t.me/rakaaanjayy")
+                        "🤖 ᴏᴡɴᴇʀ", url=f"https://t.me/rakaaanjayy")
                 ]
             ]
         ),
@@ -111,22 +111,22 @@ def map(pos):
         return [
             [
                 InlineKeyboardButton(
-                    "➕ TAMBAHIN GUA KE GROUP LO ➕",
+                    "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text='💬 Channel Updates',
+                    text='🎯 ᴄʜᴀɴɴᴇʟ',
                     url=f"https://t.me/isikepalavalen",
                 ),
                 InlineKeyboardButton(
-                    text='⛑ Group Support', url=f"https://t.me/sinihadehh"
+                    text='📍 ɢʀᴏᴜᴘ', url=f"https://t.me/sinihadehh"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text='🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}"
+                    text='🤖 ᴏᴡɴᴇʀ', url=f"https://t.me/rakaaanjayy"
                 )
             ],
             [InlineKeyboardButton(text='«', callback_data=f"help+{pos-1}")],
