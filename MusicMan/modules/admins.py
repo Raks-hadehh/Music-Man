@@ -46,15 +46,15 @@ async def update_admin(client, message: Message):
         ),
     )
 
-    await message.reply_text("✅ Bot **berhasil dimulai ulang!**\n\n• **Daftar admin** telah **diperbarui**",
+    await message.reply_text("✅ Bot **Berhasi Dimuat Ulang Nih Tot!!**\n\n• **Daftar admin** telah **diperbarui**",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "Group Support", url="https://t.me/sinihadehh"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/mrismanaziz"
+                        "Owner", url="https://t.me/rakaaanjayy"
                     )
                 ]
             ]
@@ -104,7 +104,7 @@ async def stop(_, message: Message):
             pass
 
         await callsmusic.stop(chat_id)
-        await message.reply_text("❌ **Memberhentikan Lagu!**")
+        await message.reply_text("❌ **DAH YA GUA CAPE**")
 
 
 @Client.on_message(command("skip") & other_filters)
