@@ -531,9 +531,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📍 ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"),
-                    InlineKeyboardButton("🎯 **Channel**", url="https://t.me/isikepalavalen"),
+                    InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="https://t.me/rakaaanjayy")],
             ]
         )
         file_name = get_file_name(audio)
@@ -588,9 +589,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📍 ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"),
-                    InlineKeyboardButton("🎯 **Channel**", url="https://t.me/isikepalavalen"),
+                    InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="https://t.me/rakaaanjayy")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -616,7 +618,7 @@ async def play(_, message: Message):
                 toxxt += f"{emojilist[j]} [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ **Duration** - {results[j]['duration']}\n"
                 toxxt += f" ├ **Views** - {results[j]['views']}\n"
-                toxxt += f" └ **Channel** - {results[j]['channel']}\n\n"
+                toxxt += f" └ ᴄʜᴀɴɴᴇʟ - {results[j]['channel']}\n\n"
 
             koyboard = InlineKeyboardMarkup(
                 [
@@ -630,6 +632,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton("5️⃣", callback_data=f'plll 4|{query}|{user_id}'),
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                    [InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen")],
                 ]
             )
             await lel.edit(toxxt,reply_markup=koyboard,disable_web_page_preview=True)
@@ -673,9 +676,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📍 ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"),
-                    InlineKeyboardButton("🎯 **Channel**", url="https://t.me/isikepalavalen"),
+                    InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="https://t.me/rakaaanjayy")],
             ]
         )
             requested_by = message.from_user.first_name
@@ -818,9 +822,10 @@ async def ytplay(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📍 ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"),
-                    InlineKeyboardButton("🎯 **Channel**", url="https://t.me/isikepalavalen"),
+                    InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="https://t.me/rakaaanjayy")],
             ]
         )
     requested_by = message.from_user.first_name
@@ -951,9 +956,10 @@ async def deezer(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("📍 ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"),
-                    InlineKeyboardButton("🎯 **Channel**", url="https://t.me/isikepalavalen"),
+                    InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="https://t.me/rakaaanjayy")],
             ]
         )
     file_path = await convert(wget.download(url))
@@ -1082,9 +1088,10 @@ async def jiosaavn(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("📍 ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"),
-                    InlineKeyboardButton("🎯 **Channel**", url="https://t.me/isikepalavalen"),
+                    InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="https://t.me/rakaaanjayy")],
             ]
         )
     file_path = await convert(wget.download(slink))
@@ -1186,9 +1193,10 @@ async def lol_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("📍 ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"),
-                    InlineKeyboardButton("🎯 **Channel**", url="https://t.me/isikepalavalen"),
+                    InlineKeyboardButton("🎯 ᴄʜᴀɴɴᴇʟ", url="https://t.me/isikepalavalen"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="https://t.me/rakaaanjayy")],
             ]
         )
     requested_by = useer_name
